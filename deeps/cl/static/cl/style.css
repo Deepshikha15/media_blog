@@ -1,0 +1,11 @@
+
+li a{
+    font-size:30px;
+    color:black;
+}
+
+body {
+    color:blue;
+    background: white url("images/h.jpg") no-repeat;
+
+}

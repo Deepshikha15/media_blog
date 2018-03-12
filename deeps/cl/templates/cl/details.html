@@ -1,0 +1,15 @@
+{% extends 'cl/base.html' %}
+
+{% block main_content %}
+<font color="red"><h3 align="center" >{{update.title}}</h3></font>
+<div>
+    {{update.body}}
+    <div>
+    {{update.created_at}}
+</div>
+</div>
+<br><br>
+
+<a href="/cl">GoBaCK</a>
+
+{% endblock %}

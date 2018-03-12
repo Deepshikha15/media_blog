@@ -1,0 +1,10 @@
+{% extends 'cl/base.html' %}
+
+{% block main_content %}
+<font color="red"><h3 align="center" >{{title}}</h3></font>
+<ul class="collection">
+{% for up in update %}
+    <li class="collection-item"><a href="/cl/details/{{up.id}}"> {{up.title}}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}
